@@ -131,7 +131,7 @@ module.exports = {
           /\.gif$/,
           /\.jpe?g$/,
           /\.png$/,
-          /@jetbrains\/icons\/[a-z_-]+\.svg$/
+          /@jetbrains\/icons\/[a-zA-Z0-9_-]+\.svg$/,
         ],
         loader: require.resolve('file-loader'),
         options: {
