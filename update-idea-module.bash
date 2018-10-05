@@ -6,6 +6,9 @@ npm run gen-idea-libs
 
 CONFIG_DIR="../logrally-intellij/.idea"
 
+cat logrally-web.iml | sed -s "s#\\\$MODULE_DIR\\\$#$PWD#g" > "${CONFIG_DIR}/modules/logrally-web.iml"
+cat logrally-web.iml | sed -s "s#\\\$MODULE_DIR\\\$#$PWD#g" > module.iml
+
 for f in .idea/runConfigurations/*; do
     echo "Copying $f"
     cat "$f" | sed -e 's/\$PROJECT_DIR\$/\$PROJECT_DIR\$\/..\/logrally-web/' > "${CONFIG_DIR}/runConfigurations/$(basename $f)"
