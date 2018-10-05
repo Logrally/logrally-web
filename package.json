@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@logrally/kotlin-react-ring-ui": "^0.0.2",
+    "@logrally/kotlin-react-ring-ui": "^0.0.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
   "devDependencies": {
     "@jetbrains/kotlin-webpack-plugin": "^1.2.10",
+    "@jetbrains/postcss-require-hover": "^0.1.2",
     "react-scripts-kotlin": "2.1.14"
   },
   "scripts": {
