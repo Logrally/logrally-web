@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+mkdir -p node_modules/.cache
 npm run gen-idea-libs
 
 # This script takes the generated project files and updates the project at $CONFIG_DIR so that this application is usable as a module

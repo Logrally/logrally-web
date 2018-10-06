@@ -3,7 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@logrally/kotlin-react-ring-ui": "^0.0.3",
+    "@logrally/kotlin-ring-ui-shared": "latest",
+    "@logrally/kotlin-ring-ui-alert": "latest",
+    "@logrally/kotlin-ring-ui-authdialog": "latest",
+    "@logrally/kotlin-ring-ui-button": "latest",
+    "@logrally/kotlin-ring-ui-footer": "latest",
+    "@logrally/kotlin-ring-ui-header": "latest",
+    "@logrally/kotlin-ring-ui-link": "latest",
+    "@logrally/kotlin-ring-ui-loader": "latest",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
