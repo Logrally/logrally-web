@@ -196,6 +196,11 @@ module.exports = {
                         ],
                         flexbox: 'no-2009',
                       }),
+                      //PATCHED!
+                      require('postcss-custom-properties')({
+                          preserve: true,
+                          variables: require('@jetbrains/ring-ui/extract-css-vars')
+                      }),
                     ],
                   },
                 },

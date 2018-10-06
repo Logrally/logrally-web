@@ -21,5 +21,13 @@
     <orderEntry type="library" name="kotlin-ring-ui-link" level="project" />
     <orderEntry type="library" name="kotlin-ring-ui-loader" level="project" />
     <orderEntry type="library" name="kotlin-ring-ui-shared" level="project" />
+    <orderEntry type="library" name="kotlin-react-router-dom" level="project" />
+    <orderEntry type="library" name="kotlin-ring-ui-dialog" level="project" />
+    <orderEntry type="library" name="kotlin-ring-ui-island" level="project" />
+    <orderEntry type="library" name="kotlin-ring-ui-panel" level="project" />
+    <orderEntry type="library" name="kotlin-ring-ui-grid" level="project" />
+    <orderEntry type="library" name="kotlin-ring-ui-heading" level="project" />
+    <orderEntry type="library" name="kotlin-css-js" level="project" />
+    <orderEntry type="library" name="kotlin-styled" level="project" />
   </component>
 </module>

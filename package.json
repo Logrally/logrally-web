@@ -3,20 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "@jetbrains/kotlin-react-router-dom": "^4.3.1-pre.55",
     "@logrally/kotlin-ring-ui-shared": "latest",
     "@logrally/kotlin-ring-ui-alert": "latest",
     "@logrally/kotlin-ring-ui-authdialog": "latest",
     "@logrally/kotlin-ring-ui-button": "latest",
+    "@logrally/kotlin-ring-ui-grid": "latest",
+    "@logrally/kotlin-ring-ui-dialog": "latest",
+    "@logrally/kotlin-ring-ui-island": "latest",
+    "@logrally/kotlin-ring-ui-panel": "latest",
     "@logrally/kotlin-ring-ui-footer": "latest",
     "@logrally/kotlin-ring-ui-header": "latest",
+    "@logrally/kotlin-ring-ui-heading": "latest",
     "@logrally/kotlin-ring-ui-link": "latest",
-    "@logrally/kotlin-ring-ui-loader": "latest",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "@logrally/kotlin-ring-ui-loader": "latest"
   },
   "devDependencies": {
+    "@jetbrains/kotlin-css": "^1.0.0-pre.55",
+    "@jetbrains/kotlin-css-js": "^1.0.0-pre.55",
+    "@jetbrains/kotlin-styled": "^1.0.0-pre.55",
     "@jetbrains/kotlin-webpack-plugin": "^1.2.10",
     "@jetbrains/postcss-require-hover": "^0.1.2",
+    "postcss": "^7.0.5",
+    "postcss-custom-properties": "^8.0.8",
     "react-scripts-kotlin": "2.1.14"
   },
   "scripts": {
